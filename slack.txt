@@ -26,7 +26,7 @@ Install Email Extension Plugin.
 
 Configure SMTP Server:
 Go to Manage Jenkins > Configure System.
-Under Extended E-mail Notification:
+Under  E-mail Notification:
 SMTP server (e.g., smtp.gmail.com)
 SMTP Port (e.g., 465 or 587)
 Use authentication – yes, and enter your SMTP credentials.(here email and password)
