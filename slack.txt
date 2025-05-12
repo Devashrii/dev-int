@@ -13,7 +13,8 @@ Configuration using Slack
 
 
 
-3) Come back to Jenkins, Manage Jenkins, System configuration, scroll to slack. For workspace enter workspace name, credential add → Jenkins → Kind → Secret text, Secret paste ID→ news9
+3) Come back to Jenkins, Manage Jenkins,system click, System configuration, scroll to slack. For workspace enter workspace name(default) else small one, credential add → Jenkins → Kind → Secret text, Secret paste ID→ news9 (can give any)
+- test connection (success) (save it)
  Add credential → new9 channel → # social Test connection Save
 4) In Dashboard select any project configure → Post Build Action→ Select slack notification and enable all and save
 Build Now
