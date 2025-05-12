@@ -18,3 +18,32 @@ Configuration using Slack
 4) In Dashboard select any project configure → Post Build Action→ Select slack notification and enable all and save
 Build Now
 6) Output of actions displayed under #social channel in Slack.
+
+
+Install Email Extension Plugin:
+Go to Manage Jenkins > Manage Plugins.
+Install Email Extension Plugin.
+
+Configure SMTP Server:
+Go to Manage Jenkins > Configure System.
+Under Extended E-mail Notification:
+SMTP server (e.g., smtp.gmail.com)
+SMTP Port (e.g., 465 or 587)
+Use authentication – yes, and enter your SMTP credentials.(here email and password)
+Use SSL/TLS as required by your email provider.
+
+Add Email Notification to Your Job:
+Open the job > Configure.
+Under Post-build Actions, choose:
+Editable Email Notification
+Define recipient list
+$DEFAULT_RECIPIENTS
+Advanced settings 
+Add trigger
+Trigger
+Failure
+Success
+Unstable	
+Fixed
+Still Failing	
+Aborted	
