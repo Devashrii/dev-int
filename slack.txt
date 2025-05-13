@@ -27,7 +27,7 @@ Install Email Extension Plugin.
 
 
 
-
+only for branches
 /github subscribe Devashrii/p1 branches
 
 
