@@ -5,11 +5,25 @@ print(x + y)
 
 
 
-FROM python
+FROM python                                                                
 WORKDIR /app
 COPY . /app
 RUN python sample.py
 CMD ["python", "sample.py"]
+
+FROM openjdk:23
+WORKDIR /app
+COPY add.java /app/demo/add.java
+RUN javac /app/demo/add.java
+CMD ["java", "demo.add"] 
+code    public class add {
+    public static void main(String[] args) {
+        int num1 = 10;
+        int num2 = 20;
+        int sum = num1 + num2;
+        System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
+    }
+}
 
 
 
