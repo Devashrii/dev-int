@@ -25,6 +25,15 @@ Install Email Extension Plugin:
 Go to Manage Jenkins > Manage Plugins.
 Install Email Extension Plugin.
 
+
+
+
+/github subscribe Devashrii/p1 branches
+
+
+
+
+
 Configure SMTP Server:
 Go to Manage Jenkins > Configure System.
 Under  E-mail Notification:
